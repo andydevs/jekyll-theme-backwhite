@@ -24,7 +24,7 @@ $mobile-width: 760px !default;
 $tablet-width: 1200px !default;
 
 // Font awesome config
-$fa-font-path: "/assets/fonts/font-awesome";
+$fa-font-path: "/assets/fonts";
 
 // Import consolas font
 @font-face {
@@ -35,7 +35,9 @@ $fa-font-path: "/assets/fonts/font-awesome";
 }
 
 // Imports
-@import "font-awesome";
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
 @import "jekyll-theme-backwhite/mixins";
 @import "jekyll-theme-backwhite/back";
 @import "jekyll-theme-backwhite/front";
