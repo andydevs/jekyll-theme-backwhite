@@ -1,0 +1,172 @@
+// Block form
+.bw-form {
+    // Page block
+    display: block;
+
+    // Inherit theme colors
+    background-color: inherit;
+    color: inherit;
+
+    // Single row in block form
+    .bw-form-row {
+        // We want each form element in
+        // The row to have the same width
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+        // We also want to keep the theme
+        // colors according to context
+        background-color: inherit;
+        color: inherit;
+    }
+}
+
+// Inline forms
+.bw-inline-form {
+    // We want to space input elements evenly
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+    // Keep theme colors
+    background-color: inherit;
+    color: inherit;
+
+    // Input group
+    .bw-input-group {
+        // Scale up to share space
+        flex: 1;
+
+        // Spacing and padding
+        margin: $spacing-unit/2 0pt;
+        padding: 0;
+
+        // Theme colors
+        background-color: inherit;
+        color: inherit;
+
+        input {
+            height: 100%;
+        }
+    }
+
+    .bw-button-group {
+        // No scaling
+        flex: 0;
+        padding: 0;
+        margin: $spacing-unit/2 0pt;
+        color: inherit;
+
+        button {
+            height: 100%;
+            background: none;
+            border: none;
+            border-bottom: 1px solid;
+            padding: $spacing-unit/2;
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            color: inherit;
+
+            * {
+                margin: 0pt $spacing-unit/2;
+                color: inherit;
+            }
+        }
+    }
+}
+
+.bw-input-group {
+    // Scale to fill space 
+    // (apparantly, the element was not shrinking, 
+    // it was being forced to have an input of 1,
+    // so we add "auto" to tell it that it grows to
+    // 1 fraction, but it can scale down if need be)
+    flex: 1 auto;
+
+    // Internal spacing
+    padding: $spacing-unit/2;
+
+    // Space elements vertically.
+    // Input is at absolute bottom,
+    // Label is at absolute top.
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    // Theme colors
+    background-color: inherit;
+
+    label {
+        // Vertical block
+        display: block;
+        font-size: $small-font-size;
+
+        // Theme colors
+        color: inherit;
+    }
+
+    input, select {
+        // Vertical block
+        display: block;
+
+        // Set width to containing unit
+        width: 100% !important;
+
+        // So apparently the sizing on these is just that 
+        // little bit off, because it uses different sizing...
+        box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+
+        // Style input field
+        border: none;
+        background: none;
+        border-radius: 0pt;
+        border-bottom: 1px solid;
+        border-color: inherit;
+        background-color: inherit;
+        color: inherit;
+
+        // Same on iOS
+        -webkit-appearance: none;
+
+        // We don't need an outline on focus
+        &:focus {
+            outline: none;
+        };
+    }
+}
+
+.bw-checkbox-group {
+    padding: $spacing-unit $spacing-unit/2;
+    display: inline-flex;
+    align-items: center;
+    background-color: inherit;
+    color: inherit;
+
+    label {
+        margin-right: $spacing-unit/2;
+        font-size: small;
+        color: inherit;
+    }
+
+    input[type="checkbox"] {
+        margin: 0;
+        margin-left: $spacing-unit/2;
+    }
+}
+
+.bw-file-group {
+    flex: 1;
+    padding: $spacing-unit/2;
+    background-color: inherit;
+}
+
+.bw-button-group {
+    flex: 1;
+    padding: $spacing-unit/2;
+    text-align: right;
+}

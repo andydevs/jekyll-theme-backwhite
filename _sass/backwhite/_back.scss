@@ -1,0 +1,75 @@
+.bw-back {
+    // Positioning
+    position: fixed;
+
+    /* This tells css to ensure that this
+     * layer is in the back, regardless of
+     * how it's included in the document.
+     * It is exactly what it says, the
+     * z-axis position of the element */
+    z-index: -1;
+
+    /* Back panel sizing. Fill vertically from
+     * top to bottom. Horizontally, start at
+     * left, be $desktop-menu-size wide*/
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    width: $desktop-menu-size;
+
+    // Styling
+    background-color: $back-color;
+    border-color: $white-color;
+    color: $white-color;
+
+    // Align text
+    text-align: right;
+
+    // Fill entire screen on mobile
+    @include on-mobile {
+        top: 0%;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
+    };
+
+    // Container
+    .bw-back-container {
+        // Text align
+        text-align: right;
+        display: block;
+        &.visible {
+            display: block;
+        }
+
+        // Padding
+        padding: $spacing-unit;
+        margin: 0;
+        @include on-mobile {
+            margin-left: $spacing-unit;
+            margin-right: $spacing-unit;
+            display: none;
+            &.visible {
+                display: block;
+            }
+        }
+    }
+
+    // Links
+    .bw-links {
+        a {
+            text-decoration: none;
+            &:hover {
+                border-bottom: 1px solid;
+            }
+        }
+    }
+
+    // Backwhite footer
+    .bw-footer {
+        color: darken($white-color, 25%);
+        text-align: justify;
+        font-size: $small-font-size;
+        p { text-align: justify; }
+    }
+}

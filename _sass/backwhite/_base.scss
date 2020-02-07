@@ -1,0 +1,106 @@
+body {
+    overflow-x: hidden;
+    font-family: $font-family;
+    font-size: $normal-font-size;
+}
+
+a {
+    color: inherit;
+    border-bottom: 1px solid $back-color;
+    text-decoration: none;
+    &:hover {
+        border-bottom: none;
+    }
+}
+
+h1,h2,h3,h4 {
+    color: $back-color;
+    margin: $spacing-unit 0pt;
+}
+h1 {
+    display: block;
+    font-size: $large-font-size;
+}
+h2 {
+    display: block;
+    font-size: $medium-font-size;
+}
+h3 {
+    display: block;
+    font-size: $medium-font-size;
+}
+p {
+    display: block;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+
+ul {
+    display: block;
+    list-style: none;
+    > li:before {
+        content: "-";
+        margin-right: 8pt;
+    }
+}
+ol {
+    display: block;
+    list-style: lower-roman;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    padding: 0pt;
+    border-spacing: 0;
+
+    th {
+        color: $back-color;
+    }
+    th,td {
+        margin: 0pt;
+        padding: $spacing-unit;
+        text-align: center;
+        border-bottom: 0.5pt solid $back-color;
+        overflow: hidden;
+    }
+    th:last-child, td:last-child {
+        border-right: none;
+    }
+    tr:last-child > td {
+        border-bottom: none;
+    }
+}
+
+code {
+    font-family: $code-font-family;
+    font-size: $normal-font-size;
+    font-weight: 500;
+}
+
+pre {
+    @include block-cutout;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+blockquote {
+    @include block-cutout;
+
+    // Font
+    font-size: $medium-font-size;
+    font-style: italic;
+    text-align: justify;
+
+    // Spacing
+    display: block;
+    margin: 0;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    padding: 2*$spacing-unit;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0px 0pt 8pt darken($white-color, 33%);
+}

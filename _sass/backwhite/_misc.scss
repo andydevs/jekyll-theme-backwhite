@@ -1,0 +1,102 @@
+// Hide on desktop, show on mobile
+.bw-show-on-mobile {
+    display: none;
+    @include on-mobile {
+        display: inline-block;
+    }
+}
+
+// Basic header with action button availability
+.bw-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    margin: $spacing-unit 0pt;
+
+    .bw-title {
+        flex: 1;
+        margin: 0;
+        font-size: $large-font-size;
+        color: inherit;
+    }
+
+    .bw-action {
+        flex: 0;
+        background: none;
+        border: none;
+        color: inherit;
+        padding: $spacing-unit/2;
+        margin: $spacing-unit/2;
+    }
+}
+
+// Grid rows
+.bw-row {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: $spacing-unit;
+
+    // Create grid columns
+    @for $i from 1 to 12 {
+        .bw-col-#{$i} {
+            grid-column-start: span $i;
+            @include on-tablet {
+                grid-column-start: span 12;
+            };
+        }
+    }
+}
+
+// Custom buttons
+.bw-text-button {
+    border: none;
+    background: none;
+    display: inline-block;
+    color: inherit;
+    padding: $spacing-unit;
+}
+.bw-cutout-button {
+    @include cutout;
+    border: none;
+    display: inline-block;
+    transition: box-shadow 0.5s;
+    &:hover {
+        box-shadow: none;
+    }
+}
+.bw-raised-button {
+    @include raised;
+    border: none;
+    display: inline-block;
+    transition: box-shadow 0.5s;
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+// Cutout section (appears as a recessed section that uses the back color)
+.bw-cutout {
+    @include block-cutout;
+}
+
+// Wraps an element with a horizontal scroll bar
+.bw-horiz-scroll-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+// Basic horizontal rule
+.bw-horiz-rule {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+// Thumbnail image
+.bw-thumbnail {
+    max-width: 200px;
+    max-height: 200px;
+}
