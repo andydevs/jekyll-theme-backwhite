@@ -1,5 +1,0 @@
-plugins:
-  - jekyll-font-awesome-sass
-
-font-awesome:
-  assets: true
