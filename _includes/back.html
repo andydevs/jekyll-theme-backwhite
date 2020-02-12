@@ -11,12 +11,14 @@
         <!-- Links Table -->
         <table class="bw-links">
             <tr>
-                <td>
-                    <a href="https://github.com/andydevs">
-                        <span class='fab fa-github'></span>
-                        {{ site.github_username }}
-                    </a>
-                </td>
+                {% if site.github_username %}
+                    <td>
+                        <a href="https://github.com/andydevs">
+                            <span class='fab fa-github'></span>
+                            {{ site.github_username }}
+                        </a>
+                    </td>
+                {% endif %}
             </tr>
         </table>
 
