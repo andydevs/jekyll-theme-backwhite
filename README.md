@@ -114,8 +114,6 @@ This is an example of a header in the back panel.
 
 ![Back Header](./doc-images/back-header.png)
 
-_More content will be added below soon_
-
 ### Controlling Mobile Sliding
 
 The front and back usually start with main headers. These are what will contain the buttons controlling the sliding on mobile. The front panel header would usually contain the title of the page. The back panel header would contain the title of the site. On each of these there would be one button which handles opening and closing.
