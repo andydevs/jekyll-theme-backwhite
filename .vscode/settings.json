@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "jekyll-theme-backwhite/**/*.gem": true,
+        "jekyll-theme-backwhite/**/.bundle": true,
+        "jekyll-theme-backwhite/**/.sass-cache": true,
+        "jekyll-theme-backwhite/**/_site": true,
+        "jekyll-theme-backwhite/**/Gemfile.lock": true,
+    }
+}
