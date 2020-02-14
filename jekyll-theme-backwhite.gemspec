@@ -2,17 +2,15 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-backwhite"
-  spec.version       = "1.0.3"
+  spec.version       = "1.0.4"
   spec.authors       = ["andydevs"]
   spec.email         = ["akanshul97@gmail.com"]
 
   spec.summary       = "Backwhite theme as a jekyll package"
-  spec.homepage      = "https://andydevs.github.io/jekyll-theme-backwhite#readme"
+  spec.homepage      = "https://www.github.com/andydevs/jekyll-theme-backwhite#readme"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| 
-    f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|CHANGELOG|doc-images|USAGE|_config)!i) 
-  }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
