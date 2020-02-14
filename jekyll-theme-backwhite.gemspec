@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://andydevs.github.io/jekyll-theme-backwhite"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|CHANGELOG|_config)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
