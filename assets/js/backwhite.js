@@ -117,21 +117,21 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
     });
   }); // Dynamic Tables
 
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.bw-front table').each(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.bw-front table').each(function (_, table) {
     // Find longest
-    var longest = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).find('th,td').map(function (_, elem) {
+    var longest = jquery__WEBPACK_IMPORTED_MODULE_0___default()(table).find('th,td').map(function (_, elem) {
       return jquery__WEBPACK_IMPORTED_MODULE_0___default()(elem).text();
     }).get().reduce(function (a, b) {
       return a.length >= b.length ? a : b;
     }, ''); // Get length of longest
 
-    var font = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).find('td').css('font');
+    var font = jquery__WEBPACK_IMPORTED_MODULE_0___default()(table).find('td').css('font');
     var canvas = document.createElement('canvas');
     var ctx = canvas.getContext('2d');
     ctx.font = font;
     var length = ctx.measureText(longest).width; // Set table cell lengths to length of longest
 
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).find('th,td').css('width', length);
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(table).find('th,td').css('width', length);
   });
 });
 

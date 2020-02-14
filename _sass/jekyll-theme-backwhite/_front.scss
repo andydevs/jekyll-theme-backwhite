@@ -1,17 +1,17 @@
 .bw-front {
-    // Positioning
+    // Positioning and sizing
     position: absolute;
     top: 0%;
-    right: 0%;
     left: $desktop-menu-size;
+    right: 0%;
     min-height: 100%;
 
     /* Setting a z-index of 0 to so that
      * this is in front of the back layer
      * with a z-index of -1 (see _back.scss) */
     z-index: 0;
-    
-    // Vertical flow only
+
+    // Only vertical scrolling
     overflow-x: hidden;
 
     // Coloring

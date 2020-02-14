@@ -35,10 +35,10 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(12, 1fr);
-    column-gap: $spacing-unit;
+    grid-column-gap: $spacing-unit;
 
     // Create grid columns
-    @for $i from 1 to 12 {
+    @for $i from 1 through 12 {
         .bw-col-#{$i} {
             grid-column-start: span $i;
             @include on-tablet {

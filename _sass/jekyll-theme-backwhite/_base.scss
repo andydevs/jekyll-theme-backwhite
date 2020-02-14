@@ -1,7 +1,7 @@
 body {
-    overflow-x: hidden;
     font-family: $font-family;
     font-size: $normal-font-size;
+    overflow-x: hidden;
 }
 
 a {
@@ -72,16 +72,16 @@ table {
     }
 }
 
-code {
-    font-family: $code-font-family;
-    font-size: $normal-font-size;
-    font-weight: 500;
-}
-
 pre {
     @include block-cutout;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+}
+
+code {
+    font-family: $code-font-family;
+    font-size: $normal-font-size;
+    font-weight: 500;
 }
 
 blockquote {
