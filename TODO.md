@@ -1,42 +1,79 @@
 jekyll-theme-backwhite: TODO
-=====================================================
+===========================================================
 
 Backlog
------------------------------------------------------
+-----------------------------------------------------------
 
-### Eyyenehjkdshfkj
+### Build Tooling
 
-- [ ] Custom 404 page
-- [ ] Create single bw-container which replaces front and back containers
-- [ ] Create .bw-app div which should encapsulate all backwhite content!
-- [ ] .bw-center which centers content
-- [ ] .bw-back that takes up whole page!
-- [ ] .bw-raised block (for a full back)
+- [ ] Automate version update
+- [ ] Travis n stuff
 
-### Ideas
+### Features
 
-- [ ] Add some sort of support for categories
+- [ ] Support for categories
 
-### Main Line
+### Tweaks
 
-- [ ] Move position attributes in .bw-back to right under position attribute
-- [ ] Move .bw-links to _misc.scss
-- [ ] Change `<div class='bw-footer'>` to `<footer class='bw-footer'>` in html page and ntation
-- [ ] Fix headers and p to all have display: block, color: inherit, and margin-vertical: $spacing-unit (in one scss block)
-- [ ] Change h1 font-size to mega-font-size
-- [ ] Create .bw-small, .bw-medium, .bw-large, .bw-mega classes
-- [ ] Remove font size attribute from .bw-title
-- [ ] Center images!
-- [ ] Create .bw-emph-button which automatically switches between raised and cutout depending on context
-- [ ] Create .bw-border-button with border around button
-- [ ] Intermediate grid row in tablet width which keeps some grid stuff
-- [ ] Back menu main thumbnail image
+### Refactoring
 
 Upcoming
------------------------------------------------------
+-----------------------------------------------------------
+
+### New Style Options
+
+#### Features
+
+- [ ] `.bw-small`, `.bw-medium`, `.bw-large`, 
+`.bw-mega` classes
+- [ ] `.bw-emph-button` which automatically switches between 
+raised and cutout depending on context
+- [ ] `.bw-border-button` with border around button\
+
+#### Tweaks
+
+- [ ] Fix headers and p to all have `display: block`, 
+`color: inherit`, and `margin-vertical: $spacing-unit` 
+(in one scss block)
+- [ ] Change `h1` font-size to mega-font-size
+- [ ] Remove font size attribute from `.bw-title` (is
+provided by size classes or elements)
+
+#### Refactoring
+
+- [ ] Move .bw-links to _misc.scss
+- [ ] Change `<div class='bw-footer'>` to 
+`<footer class='bw-footer'>` in html page
+
+### Images
+
+- [ ] Back menu main thumbnail image
+- [ ] Images centered by default
+
+### Panels and Containers
+
+#### Features
+
+- [ ] Centered full-page thing (for logins n such)
+- [ ] Also a back-colored centered full-page
+- [ ] Custom 404 page
+- [ ] .bw-raised block (for a full back)
+
+#### Tweaks
+
+- [ ] Create single bw-container which replaces 
+front and back containers (the spacing is handled by 
+front and back)
+- [ ] Create .bw-app div which should encapsulate 
+all backwhite content!
+- [ ] Intermediate grid row in tablet width which 
+keeps some grid stuff
+- [ ] Move position attributes in .bw-back to right 
+under position attribute
+
 
 Changelog
------------------------------------------------------
+-----------------------------------------------------------
 
 ### v1.0.4
 
