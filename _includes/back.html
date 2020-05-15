@@ -10,12 +10,35 @@
 
         <!-- Links Table -->
         <table class="bw-links">
+            {% assign rowsize = 3 %}
+            {% assign rows = site.links.size | times: 1.0 | divided_by: rowsize | ceil %}
+            {% for i in (1..rows) %}
+                {% assign offset = forloop.index0 | times: rowsize %}
+                <tr>
+                {% for link in site.links limit:rowsize offset:offset %}
+                    <td>
+                        <a href="{{ link.url }}">
+                            {{ link.text }}
+                        </a>
+                    </td>
+                {% endfor %}
+                </tr>
+            {% endfor %}
+
             <tr>
                 {% if site.github_username %}
                     <td>
-                        <a href="https://github.com/andydevs">
+                        <a href="https://github.com/{{ site.github_username }}">
                             <span class='fab fa-github'></span>
                             {{ site.github_username }}
+                        </a>
+                    </td>
+                {% endif %}
+                {% if site.email_address %}
+                    <td>
+                        <a href="mailto://{{ site.email_address }}">
+                            <span class="fas fa-envelope"></span>
+                            Email
                         </a>
                     </td>
                 {% endif %}
