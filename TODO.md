@@ -1,6 +1,12 @@
 jekyll-theme-backwhite: TODO
 ===========================================================
 
+Notes
+-----------------------------------------------------------
+
+This is now the source of truth for the project, as the
+theme was meant to be used for my jekyll site
+
 Backlog
 -----------------------------------------------------------
 
@@ -14,6 +20,8 @@ Backlog
 - [ ] Support for categories
 
 ### Tweaks
+
+- [ ] Use CSS Grid to style the homepage
 
 ### Refactoring
 
@@ -39,8 +47,10 @@ raised and cutout depending on context
 - [ ] Remove font size attribute from `.bw-title` (is
 provided by size classes or elements)
 
-#### Refactoring
+#### Refactoring and Maintainence
 
+- [ ] Add _config.yml
+- [ ] Fix index.html to use the layouts and includes 
 - [ ] Move .bw-links to _misc.scss
 - [ ] Change `<div class='bw-footer'>` to 
 `<footer class='bw-footer'>` in html page
