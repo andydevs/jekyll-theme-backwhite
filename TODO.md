@@ -21,9 +21,6 @@ Backlog
 
 ### Tweaks
 
-- [ ] Main content should have gutters on larger desktops
-- [ ] Use CSS Grid to style the homepage
-
 ### Refactoring
 
 Upcoming
@@ -33,11 +30,11 @@ Upcoming
 
 #### Features
 
-- [ ] `.bw-small`, `.bw-medium`, `.bw-large`, 
-`.bw-mega` classes
+- [ ] Use CSS Grid to style the post snippets
+- [ ] `.bw-small`, `.bw-medium`, `.bw-large`, `.bw-mega` classes
 - [ ] `.bw-emph-button` which automatically switches between 
 raised and cutout depending on context
-- [ ] `.bw-border-button` with border around button\
+- [ ] `.bw-border-button` with border around button
 
 #### Tweaks
 
@@ -65,6 +62,7 @@ provided by size classes or elements)
 
 #### Features
 
+- [ ] Main content gutters on larger desktops
 - [ ] Centered full-page thing (for logins n such)
 - [ ] Also a back-colored centered full-page
 - [ ] Custom 404 page
