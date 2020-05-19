@@ -21,6 +21,7 @@ Backlog
 
 ### Tweaks
 
+- [ ] Main content should have gutters on larger desktops
 - [ ] Use CSS Grid to style the homepage
 
 ### Refactoring
