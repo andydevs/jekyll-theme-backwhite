@@ -37,7 +37,7 @@ Upcoming
 #### Features
 
 - [ ] Main content gutters larger desktops
-- [ ] `.bw-small`, `.bw-medium`, `.bw-large`, 
+- [x] `.bw-small`, `.bw-medium`, `.bw-large`, 
         `.bw-mega` classes
 - [ ] `.bw-emph-button` which automatically switches between 
         raised and cutout depending on context
@@ -46,10 +46,10 @@ Upcoming
 #### Tweaks
 
 - [x] Images centered by default
-- [ ] Fix headers and p to all have the same display type 
+- [x] Fix headers and p to all have the same display type 
         and spacing (in one scss block)
-- [ ] Change `h1` font-size to mega-font-size
-- [ ] Remove font size attribute from `.bw-title` (is
+- [x] Change `h1` font-size to mega-font-size
+- [x] Remove font size attribute from `.bw-title` (is
         provided by size classes or elements)
 
 #### Refactoring and Maintainence

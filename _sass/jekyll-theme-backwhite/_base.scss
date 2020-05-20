@@ -13,27 +13,16 @@ a {
     }
 }
 
-h1,h2,h3,h4 {
-    color: $back-color;
-    margin: $spacing-unit 0pt;
-}
-h1 {
-    display: block;
-    font-size: $large-font-size;
-}
-h2 {
-    display: block;
-    font-size: $medium-font-size;
-}
-h3 {
-    display: block;
-    font-size: $medium-font-size;
-}
-p {
+h1,h2,h3,h4,h5,h6,p {
     display: block;
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
+h1,h2,h3,h4,h5,h6 { color: $back-color; }
+p { font-size: $normal-font-size; }
+h1 { font-size: $mega-font-size; }
+h2,h3 { font-size: $large-font-size; }
+h4,h5,h6 { font-size: $medium-font-size; }
 
 ul {
     display: block;
