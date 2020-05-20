@@ -23,6 +23,12 @@ Backlog
 
 ### Refactoring
 
+### Documentation
+
+- [ ] Write introduction page
+- [ ] Write usage page
+- [ ] Write elements showcase page
+
 Upcoming
 -----------------------------------------------------------
 
