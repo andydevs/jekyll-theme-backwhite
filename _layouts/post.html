@@ -1,3 +1,5 @@
 ---
 layout: page
 ---
+{% if post.date %}<p><i>Published {{ post.date | date: "%A, %e %B %Y" }}</i></p>{% endif %}
+{{ content }}
