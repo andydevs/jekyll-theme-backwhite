@@ -35,30 +35,6 @@ Backlog
 Upcoming
 -----------------------------------------------------------
 
-### Better In Some Ways
-
-#### Features
-
-- [x] Main content gutters larger desktops
-- [x] `.bw-small`, `.bw-medium`, `.bw-large`, 
-        `.bw-mega` classes
-
-#### Tweaks
-
-- [x] Images centered by default
-- [x] Fix headers and p to all have the same display type 
-        and spacing (in one scss block)
-- [x] Change `h1` font-size to mega-font-size
-- [x] Remove font size attribute from `.bw-title` (is
-        provided by size classes or elements)
-
-#### Refactoring and Maintainence
-
-- [x] Add _config.yml
-- [x] Fix index.html to use the layouts and includes
-- [x] Change `<div class='bw-footer'>` to 
-        `<footer class='bw-footer'>` in html page
-
 ### More Style Elements!
 
 - [ ] `.bw-emph-button` which automatically switches between 
@@ -89,6 +65,30 @@ under position attribute
 
 Changelog
 -----------------------------------------------------------
+
+### v1.1.0: Better In Some Ways
+
+#### Features
+
+- [x] Main content gutters larger desktops
+- [x] `.bw-small`, `.bw-medium`, `.bw-large`, 
+        `.bw-mega` classes
+
+#### Tweaks
+
+- [x] Images centered by default
+- [x] Fix headers and p to all have the same display type 
+        and spacing (in one scss block)
+- [x] Change `h1` font-size to mega-font-size
+- [x] Remove font size attribute from `.bw-title` (is
+        provided by size classes or elements)
+
+#### Refactoring and Maintainence
+
+- [x] Add _config.yml
+- [x] Fix index.html to use the layouts and includes
+- [x] Change `<div class='bw-footer'>` to 
+        `<footer class='bw-footer'>` in html page
 
 ### v1.0.4
 
