@@ -26,7 +26,7 @@ Backlog
 ### Documentation
 
 - [ ] Write introduction page
-- [ ] Write usage page
+- [x] Write usage page
 - [ ] Write elements showcase page
 
 Upcoming
@@ -45,7 +45,7 @@ Upcoming
 
 #### Tweaks
 
-- [ ] Images centered by default
+- [x] Images centered by default
 - [ ] Fix headers and p to all have the same display type 
         and spacing (in one scss block)
 - [ ] Change `h1` font-size to mega-font-size

@@ -1,4 +1,7 @@
-# Usage
+---
+layout: page
+title: Usage
+---
 
 ## Back and Front Panels
 
