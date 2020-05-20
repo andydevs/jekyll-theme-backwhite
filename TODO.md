@@ -55,8 +55,7 @@ provided by size classes or elements)
 #### Refactoring and Maintainence
 
 - [x] Add _config.yml
-- [x] Fix index.html to use the layouts and includes 
-- [ ] Move .bw-links to _misc.scss
+- [x] Fix index.html to use the layouts and includes
 - [ ] Change `<div class='bw-footer'>` to 
 `<footer class='bw-footer'>` in html page
 
