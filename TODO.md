@@ -32,6 +32,10 @@ Backlog
 - [x] Write usage page
 - [ ] Write elements showcase page
 
+### Bugs
+
+- [ ] Main link does not redirect to homepage
+
 Upcoming
 -----------------------------------------------------------
 
