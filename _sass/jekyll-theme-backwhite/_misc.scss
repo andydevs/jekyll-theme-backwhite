@@ -36,6 +36,20 @@
     }
 }
 
+// Content gutters
+.bw-content-gutters {
+    display: block;
+    max-width: $gutters-width;
+    margin-left: auto;
+    margin-right: auto;
+    @include on-tablet {
+        max-width: 100%;
+    }
+    @include on-mobile {
+        max-width: 100%;
+    }
+}
+
 // Grid rows
 .bw-row {
     display: grid;

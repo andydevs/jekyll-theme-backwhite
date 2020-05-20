@@ -1,5 +1,7 @@
 ---
 layout: page
 ---
-{% if post.date %}<p><i>Published {{ post.date | date: "%A, %e %B %Y" }}</i></p>{% endif %}
-{{ content }}
+<div class='bw-content-gutters'>
+    {% if page.date %}<p><i>Published {{ page.date | date: "%A, %e %B %Y" }}</i></p>{% endif %}
+    {{ content }}
+</div>

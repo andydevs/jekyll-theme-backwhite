@@ -39,7 +39,7 @@ Upcoming
 
 #### Features
 
-- [ ] Main content gutters larger desktops
+- [x] Main content gutters larger desktops
 - [x] `.bw-small`, `.bw-medium`, `.bw-large`, 
         `.bw-mega` classes
 
