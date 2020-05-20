@@ -162,10 +162,10 @@ Links are organized on the back menu using a table.
 
 ## Back Menu Footer
 
-The footer goes in the back menu within a div with the class `.bw-footer`.
+The footer goes in the back menu within an element with the class `.bw-footer`.
 
 ```html
-<div class="bw-footer">
+<footer class="bw-footer">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
         eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -174,7 +174,7 @@ The footer goes in the back menu within a div with the class `.bw-footer`.
         velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in 
         culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+</footer>
 ```
 
 ![Header Links Footer](./doc-images/header-links-footer.png)
@@ -414,6 +414,21 @@ On a tablet (or a smaller laptop screen), and on mobile, the grid rows align ver
 
 ![Grid Rows Tablet](./doc-images/grid-rows-tablet.png)
 
+## Content Gutters
+
+On larger desktops, it is much more visually appealing to center content and shorten the width. Backwhite provides the `.bw-content-gutters` class which can be used to wrap content in a centered, appropriately spaced container
+
+```html
+<div class='bw-header'>
+    <!-- ... header ... -->
+</div>
+<div class='bw-content-gutters'>
+    <!-- ... content ... -->
+</div>
+```
+
+![Content Gutters](./doc-images/content-gutters.png)
+
 ## Cutouts
 
 Another part that backwhite styling provides is cutouts. A cutout is a special emphasised part of the document that appears cut out from the front part, using the back as it's background.
@@ -497,6 +512,20 @@ Backwhite provides three button types. `.bw-text-button` is a button formatted s
 ```
 
 ![Buttons](./doc-images/buttons.png)
+
+## Font sizing
+
+Bw provides `.bw-small`, `.bw-normal`, `.bw-medium`, `.bw-large`, and `.bw-mega` classes to control font sizes.
+
+```html
+<p class="bw-mega">Mega Font Size</p>
+<p class="bw-large">Large Font Size</p>
+<p class="bw-medium">Medium Font Size</p>
+<p class="bw-normal">Normal Font Size</p>
+<p class="bw-small">Small Font Size</p>
+```
+
+![Font Sizes](./doc-images/font-sizes.png)
 
 ## Forms
 
