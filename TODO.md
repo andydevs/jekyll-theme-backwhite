@@ -18,10 +18,13 @@ Backlog
 ### Features
 
 - [ ] Support for categories
+- [ ] Touch response on mobile
 
 ### Tweaks
 
 ### Refactoring
+
+- [ ] Rewrite javascript files in coffeescript
 
 ### Documentation
 
@@ -32,16 +35,13 @@ Backlog
 Upcoming
 -----------------------------------------------------------
 
-### New Style Options
+### Better In Some Ways
 
 #### Features
 
 - [ ] Main content gutters larger desktops
 - [x] `.bw-small`, `.bw-medium`, `.bw-large`, 
         `.bw-mega` classes
-- [ ] `.bw-emph-button` which automatically switches between 
-        raised and cutout depending on context
-- [ ] `.bw-border-button` with border around button
 
 #### Tweaks
 
@@ -58,6 +58,12 @@ Upcoming
 - [x] Fix index.html to use the layouts and includes
 - [x] Change `<div class='bw-footer'>` to 
         `<footer class='bw-footer'>` in html page
+
+### More Style Elements!
+
+- [ ] `.bw-emph-button` which automatically switches between 
+        raised and cutout depending on context
+- [ ] `.bw-border-button` with border around button
 
 ### New Pages
 
