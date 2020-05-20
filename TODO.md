@@ -36,33 +36,28 @@ Upcoming
 
 #### Features
 
-- [ ] Main content gutters on larger desktops
-- [ ] Use CSS Grid to style the post snippets
-- [ ] `.bw-small`, `.bw-medium`, `.bw-large`, `.bw-mega` classes
+- [ ] Main content gutters larger desktops
+- [ ] `.bw-small`, `.bw-medium`, `.bw-large`, 
+        `.bw-mega` classes
 - [ ] `.bw-emph-button` which automatically switches between 
-raised and cutout depending on context
+        raised and cutout depending on context
 - [ ] `.bw-border-button` with border around button
 
 #### Tweaks
 
-- [ ] Fix headers and p to all have `display: block`, 
-`color: inherit`, and `margin-vertical: $spacing-unit` 
-(in one scss block)
+- [ ] Images centered by default
+- [ ] Fix headers and p to all have the same display type 
+        and spacing (in one scss block)
 - [ ] Change `h1` font-size to mega-font-size
 - [ ] Remove font size attribute from `.bw-title` (is
-provided by size classes or elements)
+        provided by size classes or elements)
 
 #### Refactoring and Maintainence
 
 - [x] Add _config.yml
 - [x] Fix index.html to use the layouts and includes
-- [ ] Change `<div class='bw-footer'>` to 
-`<footer class='bw-footer'>` in html page
-
-### Images
-
-- [ ] Back menu main thumbnail image
-- [ ] Images centered by default
+- [x] Change `<div class='bw-footer'>` to 
+        `<footer class='bw-footer'>` in html page
 
 ### New Pages
 
