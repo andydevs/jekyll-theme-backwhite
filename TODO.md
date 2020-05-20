@@ -36,6 +36,7 @@ Upcoming
 
 #### Features
 
+- [ ] Main content gutters on larger desktops
 - [ ] Use CSS Grid to style the post snippets
 - [ ] `.bw-small`, `.bw-medium`, `.bw-large`, `.bw-mega` classes
 - [ ] `.bw-emph-button` which automatically switches between 
@@ -64,11 +65,10 @@ provided by size classes or elements)
 - [ ] Back menu main thumbnail image
 - [ ] Images centered by default
 
-### Panels and Containers
+### New Pages
 
 #### Features
 
-- [ ] Main content gutters on larger desktops
 - [ ] Centered full-page thing (for logins n such)
 - [ ] Also a back-colored centered full-page
 - [ ] Custom 404 page
