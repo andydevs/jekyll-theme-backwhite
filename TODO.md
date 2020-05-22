@@ -17,24 +17,20 @@ Backlog
 
 ### Features
 
-- [ ] Support for categories
 - [ ] Touch response on mobile
+- [ ] Support for categories
 
 ### Tweaks
 
 ### Refactoring
 
-- [ ] Rewrite javascript files in coffeescript
+- [ ] Write javascript files plainly...
 
 ### Documentation
 
-- [ ] Write introduction page
 - [x] Write usage page
 - [ ] Write elements showcase page
-
-### Bugs
-
-- [ ] Main link does not redirect to homepage
+- [ ] Write introduction page
 
 Upcoming
 -----------------------------------------------------------
@@ -56,19 +52,26 @@ Upcoming
 
 #### Tweaks
 
-- [ ] Create single bw-container which replaces 
-front and back containers (the spacing is handled by 
-front and back)
 - [ ] Create .bw-app div which should encapsulate 
 all backwhite content!
+- [ ] Create single bw-container which replaces 
+front and back containers (the spacing is handled by 
+front and back panels)
 - [ ] Intermediate grid row in tablet width which 
 keeps some grid stuff
+
+#### Refactoring
+
 - [ ] Move position attributes in .bw-back to right 
 under position attribute
 
 
 Changelog
 -----------------------------------------------------------
+
+### v1.1.1
+
+- [x] Fixed bug where main link does not redirect to homepage
 
 ### v1.1.0: Better In Some Ways
 
