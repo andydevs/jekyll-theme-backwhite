@@ -29,7 +29,7 @@ Backlog
 
 - [x] Write usage page
 - [x] Write elements showcase page
-- [ ] Write introduction page
+- [x] Write introduction page
 
 ### Bug Fixes
 

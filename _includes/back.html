@@ -38,6 +38,13 @@
                         </a>
                     </td>
                 {% endif %}
+                {% if site.twitter_username %}
+                    <td>
+                        <a href="https://twitter.com/{{ site.twitter_username }}">
+
+                        </a>
+                    </td>
+                {% endif %}
                 {% if site.email_address %}
                     <td>
                         <a href="mailto://{{ site.email_address }}">
