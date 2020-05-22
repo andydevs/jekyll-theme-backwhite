@@ -5,5 +5,11 @@
         "jekyll-theme-backwhite/**/.sass-cache": true,
         "jekyll-theme-backwhite/**/_site": true,
         "jekyll-theme-backwhite/**/Gemfile.lock": true,
+        "**/*.gem": true,
+        "**/.bundle": true,
+        "**/.sass-cache": true,
+        "**/_site": true,
+        "**/Gemfile.lock": true,
+        "**/.jekyll-cache": true
     }
 }
