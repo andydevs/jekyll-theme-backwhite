@@ -95,3 +95,10 @@ img {
     max-width: 100%;
     box-shadow: 0px 0pt 8pt darken($white-color, 33%);
 }
+
+figure {
+    display: block;
+    margin: 0pt;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}

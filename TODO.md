@@ -33,9 +33,9 @@ Backlog
 
 ### Bug Fixes
 
+- [x] Figure needs fixed css
 - [ ] Front page does not show up when switching back to 
-        desktop after opening back on mobile\
-- [ ] Figure needs fixed css
+        desktop after opening back on mobile
 
 Upcoming
 -----------------------------------------------------------
