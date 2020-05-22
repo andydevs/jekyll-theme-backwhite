@@ -5,11 +5,14 @@
             <button class="bw-action bw-show-on-mobile bw-close">
                 <span class="fas fa-chevron-left"></span>
             </button>
-            <a href="{{ site.url }}/{{ site.base_url }}" class="bw-title bw-mega">{{ site.title }}</a>
+            <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" class="bw-title bw-mega">
+                {{ site.title }}
+            </a>
         </div>
 
         <!-- Links Table -->
         <table class="bw-links">
+            <!-- Link Rows -->
             {% assign rowsize = 3 %}
             {% assign rows = site.links.size | times: 1.0 | divided_by: rowsize | ceil %}
             {% for i in (1..rows) %}
@@ -24,7 +27,8 @@
                 {% endfor %}
                 </tr>
             {% endfor %}
-
+            
+            <!-- User's Social Media -->
             <tr>
                 {% if site.github_username %}
                     <td>

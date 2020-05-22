@@ -21,8 +21,6 @@ Backlog
 - [ ] Support for categories
 - [ ] Liquid chunk tag plugin
 
-### Tweaks
-
 ### Refactoring
 
 - [ ] Write javascript files plainly...
@@ -35,6 +33,22 @@ Backlog
 
 Upcoming
 -----------------------------------------------------------
+
+### More Tweaks!
+
+#### Tweaks
+
+- [ ] Fix the sliding animation
+
+#### Refactoring
+
+- [x] Write javascript files plainly
+
+#### Documentation
+
+- [x] Write usage page
+- [ ] Write elements showcase page
+- [ ] Write introduction page
 
 ### More Style Elements!
 

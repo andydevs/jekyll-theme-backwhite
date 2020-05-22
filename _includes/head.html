@@ -1,14 +1,22 @@
 <head>
+    <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords | join: ',' }}">{% endif %}
 
+    <!-- Site Title -->
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    
+    <!-- CSS And Canonical Links -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Script Links -->
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
     <script src="{{ "/assets/js/backwhite.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 </head>
