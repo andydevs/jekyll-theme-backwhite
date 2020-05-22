@@ -21,19 +21,8 @@ Backlog
 - [ ] Support for categories
 - [ ] Liquid chunk tag plugin
 
-### Refactoring
-
-- [x] Write javascript files plainly...
-
-### Documentation
-
-- [x] Write usage page
-- [x] Write elements showcase page
-- [x] Write introduction page
-
 ### Bug Fixes
 
-- [x] Figure needs fixed css
 - [ ] Front page does not show up when switching back to 
         desktop after opening back on mobile
 
@@ -53,7 +42,7 @@ Upcoming
 - [ ] Centered full-page thing (for logins n such)
 - [ ] Also a back-colored centered full-page
 - [ ] Custom 404 page
-- [ ] .bw-raised block (for a full back)
+- [ ] `.bw-raised` block (for a full back)
 
 #### Tweaks
 
@@ -73,6 +62,14 @@ under position attribute
 
 Changelog
 -----------------------------------------------------------
+
+### v1.1.2
+
+- [x] Write javascript files plainly...
+- [x] Write usage page
+- [x] Write elements showcase page
+- [x] Write introduction page
+- [x] Fix spacing for figure tags
 
 ### v1.1.1
 
