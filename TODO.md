@@ -28,13 +28,14 @@ Backlog
 ### Documentation
 
 - [x] Write usage page
-- [ ] Write elements showcase page
+- [x] Write elements showcase page
 - [ ] Write introduction page
 
 ### Bug Fixes
 
 - [ ] Front page does not show up when switching back to 
-        desktop after opening back on mobile
+        desktop after opening back on mobile\
+- [ ] Figure needs fixed css
 
 Upcoming
 -----------------------------------------------------------

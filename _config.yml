@@ -10,14 +10,12 @@ description: >
   deserunt mollit anim id est laborum.
 
 links:
-  - url: '#'
-    text: Example 1
-  - url: '#'
-    text: Example 2
-  - url: '#'
-    text: Example 3
-  - url: '#'
-    text: Machine Learning
+  - url: '/showcase'
+    text: Showcase
+  - url: '/usage'
+    text: Usage
+  - url: '/post-example'
+    text: Post Example
 
 github_username: example
 email_address: example@mail.com
