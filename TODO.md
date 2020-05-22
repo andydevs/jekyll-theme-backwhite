@@ -19,6 +19,7 @@ Backlog
 
 - [ ] Touch response on mobile
 - [ ] Support for categories
+- [ ] Liquid chunk tag plugin
 
 ### Tweaks
 
