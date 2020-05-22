@@ -23,7 +23,7 @@ Backlog
 
 ### Refactoring
 
-- [ ] Write javascript files plainly...
+- [x] Write javascript files plainly...
 
 ### Documentation
 
@@ -31,24 +31,13 @@ Backlog
 - [ ] Write elements showcase page
 - [ ] Write introduction page
 
+### Bug Fixes
+
+- [ ] Front page does not show up when switching back to 
+        desktop after opening back on mobile
+
 Upcoming
 -----------------------------------------------------------
-
-### More Tweaks!
-
-#### Tweaks
-
-- [ ] Fix the sliding animation
-
-#### Refactoring
-
-- [x] Write javascript files plainly
-
-#### Documentation
-
-- [x] Write usage page
-- [ ] Write elements showcase page
-- [ ] Write introduction page
 
 ### More Style Elements!
 
