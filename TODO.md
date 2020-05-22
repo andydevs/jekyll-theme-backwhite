@@ -1,14 +1,14 @@
 jekyll-theme-backwhite: TODO
-===========================================================
+=============================================================
 
 Notes
------------------------------------------------------------
+-------------------------------------------------------------
 
 This is now the source of truth for the project, as the
 theme was meant to be used for my jekyll site
 
 Backlog
------------------------------------------------------------
+-------------------------------------------------------------
 
 ### Build Tooling
 
@@ -27,13 +27,17 @@ Backlog
         desktop after opening back on mobile
 
 Upcoming
------------------------------------------------------------
+-------------------------------------------------------------
 
 ### More Style Elements!
 
 - [ ] `.bw-emph-button` which automatically switches between 
         raised and cutout depending on context
 - [ ] `.bw-border-button` with border around button
+
+#### Refactoring
+
+- [ ] Move doc-images to assets/images/doc folder
 
 ### New Pages
 
@@ -61,7 +65,7 @@ under position attribute
 
 
 Changelog
------------------------------------------------------------
+-------------------------------------------------------------
 
 ### v1.1.2
 
