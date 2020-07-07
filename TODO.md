@@ -12,8 +12,8 @@ Backlog
 
 ### Build Tooling
 
-- [ ] Automate version update
 - [ ] Travis n stuff
+- [ ] Automate version update
 
 ### Features
 
@@ -31,9 +31,16 @@ Upcoming
 
 ### More Style Elements!
 
+#### Features
+
 - [ ] `.bw-emph-button` which automatically switches between 
         raised and cutout depending on context
 - [ ] `.bw-border-button` with border around button
+
+#### Tweaks
+
+- [ ] Menu buttons need more emphasis
+- [ ] Menu buttons need wider click area
 
 #### Refactoring
 
