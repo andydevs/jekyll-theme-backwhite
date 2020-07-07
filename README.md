@@ -38,7 +38,7 @@ Or install it yourself as:
 
 ## Usage
 
-Refer to [Usage](./usage.md) document.
+Refer to [Usage](./usage-bruh.md) document.
 
 ## Contributing
 

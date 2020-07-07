@@ -29,7 +29,7 @@ Or install it yourself as:
 
 ## Usage
 
-Refer to [Usage](/jekyll-theme-backwhite/usage) page and checkout the [Showcase](/jekyll-theme-backwhite/showcase).
+Refer to [Usage](/jekyll-theme-backwhite/usage-bruh) page and checkout the [Showcase](/jekyll-theme-backwhite/showcase).
 
 ## Contributing
 
