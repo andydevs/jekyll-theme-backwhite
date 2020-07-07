@@ -20,7 +20,7 @@
                 <tr>
                 {% for link in site.links limit:rowsize offset:offset %}
                     <td>
-                        <a href="{{ link.url }}">
+                        <a href="{{ link.url | prepend : site.url }}">
                             {{ link.text }}
                         </a>
                     </td>
