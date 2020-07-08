@@ -81,6 +81,11 @@
     color: inherit;
     padding: $spacing-unit;
 }
+.bw-border-button {
+    @extend .bw-text-button;
+    border: 2px solid;
+    border-color: $back-color;
+}
 .bw-cutout-button {
     @include cutout;
     border: none;
@@ -106,6 +111,9 @@
 // Cutout section (appears as a recessed section that uses the back color)
 .bw-cutout {
     @include block-cutout;
+    .bw-border-button {
+        border-color: $white-color;
+    }
     .bw-emph-button {
         @extend .bw-raised-button;
     }
