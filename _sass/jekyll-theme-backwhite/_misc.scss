@@ -99,10 +99,16 @@
         box-shadow: none;
     }
 }
+.bw-emph-button {
+    @extend .bw-cutout-button;
+}
 
 // Cutout section (appears as a recessed section that uses the back color)
 .bw-cutout {
     @include block-cutout;
+    .bw-emph-button {
+        @extend .bw-raised-button;
+    }
 }
 
 // Wraps an element with a horizontal scroll bar

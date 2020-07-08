@@ -17,5 +17,10 @@ links:
   - url: '/post-example'
     text: Post Example
 
+# Example social media
 github_username: example
 email_address: example@mail.com
+
+# Build details
+exclude:
+  - TODO.md

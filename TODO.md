@@ -37,7 +37,7 @@ Upcoming
 
 #### Features
 
-- [ ] `.bw-emph-button` which automatically switches between 
+- [x] `.bw-emph-button` which automatically switches between 
         raised and cutout depending on context
 - [ ] `.bw-border-button` with border around button
 
