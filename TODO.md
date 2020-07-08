@@ -17,8 +17,9 @@ Backlog
 
 ### Features
 
-- [ ] Touch response on mobile
+- [ ] Add more support for social media links
 - [ ] Liquid chunk filter plugin
+- [ ] Touch response on mobile
 - [ ] Support for categories
 
 ### Tweaks
