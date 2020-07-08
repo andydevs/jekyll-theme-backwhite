@@ -15,24 +15,29 @@
 
 // Basic header with action button availability
 .bw-header {
+    // Flex systme
     display: flex;
-    align-items: center;
-    border-bottom: 1px solid;
-    margin: $spacing-unit 0pt;
+    flex-direction: row;
+    align-items: stretch;
 
+    // Spacing and border
+    margin: $spacing-unit 0pt;
+    border-bottom: 1px solid;
+
+    // Title button
     .bw-title {
         flex: 1;
         margin: 0;
         color: inherit;
     }
 
+    // Action button
     .bw-action {
         flex: 0;
         background: none;
         border: none;
         color: inherit;
-        padding: $spacing-unit/2;
-        margin: $spacing-unit/2;
+        padding: $spacing-unit;
     }
 }
 

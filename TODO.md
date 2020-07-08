@@ -39,8 +39,8 @@ Upcoming
 
 #### Tweaks
 
+- [x] Menu buttons need wider click area
 - [ ] Menu buttons need more emphasis
-- [ ] Menu buttons need wider click area
 
 #### Refactoring
 
