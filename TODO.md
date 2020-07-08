@@ -26,6 +26,10 @@ Backlog
 - [ ] Front page does not show up when switching back to 
         desktop after opening back on mobile
 
+### Refactoring
+
+- [ ] Move doc-images to assets/images/doc folder
+
 Upcoming
 -------------------------------------------------------------
 
@@ -41,10 +45,6 @@ Upcoming
 
 - [x] Menu buttons need wider click area
 - [x] Menu buttons need more emphasis
-
-#### Refactoring
-
-- [ ] Move doc-images to assets/images/doc folder
 
 ### New Pages
 
