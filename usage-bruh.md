@@ -83,6 +83,8 @@ This is an example of a header in the back panel.
 
 The front and back usually start with main headers. These are what will contain the buttons controlling the sliding on mobile. The front panel header would usually contain the title of the page. The back panel header would contain the title of the site. On each of these there would be one button which handles opening and closing.
 
+The front panel header actually uses a special class called `.bw-page-header`, which changes the styling of the button that opens the back menu.
+
 ```html
 <body>
     <div class="bw-back">
@@ -97,7 +99,7 @@ The front and back usually start with main headers. These are what will contain 
     </div>
     <div class="bw-front">
         <div class="bw-front-container">
-            <div class='bw-header'>
+            <div class='bw-page-header'>
                 <h1 class='bw-title'>Example Header</h1>
                 <button class="bw-action bw-show-on-mobile bw-open">
                     <span class="fas fa-chevron-right"></span>
@@ -501,13 +503,18 @@ Blockquotes and pre/code sections are automatically formatted as cutouts
 
 ## Buttons
 
-Backwhite provides three button types. `.bw-text-button` is a button formatted simply as text. `.bw-cutout-button` is a button formatted like a cutout. Use this in a front-formatted section. For the back and cutouts, there is `.bw-raised-button`.
+Backwhite provides three button types. `.bw-text-button` is a button formatted simply as text. `.bw-border-button` is a button with a border around it. `.bw-cutout-button` is a button formatted like a cutout. Use this in a front-formatted section. For the back and cutouts, there is `.bw-raised-button`. There is finally `.bw-emph-button` which automatically switches between cutout and raised styles depending on the context.
 
 ```html
 <p><button class="bw-text-button">Text Button</button></p>
+<p><button class="bw-border-button">Border Button</button></p>
 <p><button class="bw-cutout-button">Cutout Button</button></p>
+<p><button class="bw-emph-button">Emphasis Button</button></p>
 <div class="bw-cutout">
+    <p><button class="bw-text-button">Text Button</button></p>
+    <p><button class="bw-border-button">Border Button</button></p>
     <p><button class="bw-raised-button">Raised Button</button></p>
+    <p><button class="bw-emph-button">Emphasis Button</button></p>
 </div>
 ```
 
