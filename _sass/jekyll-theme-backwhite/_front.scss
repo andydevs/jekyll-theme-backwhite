@@ -37,4 +37,18 @@
         margin-right: $spacing-unit;
         padding: $spacing-unit;
     }
+
+    // Front page header
+    .bw-front-header {
+        @extend .bw-header;
+        align-items: center !important;
+
+        // Front header action
+        .bw-action {
+            @include cutout;
+            padding: $spacing-unit 4*$spacing-unit/3 !important;
+            background-color: $back-color !important;
+            color: $white-color !important;
+        }
+    }
 }

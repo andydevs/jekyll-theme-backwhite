@@ -40,7 +40,7 @@ Upcoming
 #### Tweaks
 
 - [x] Menu buttons need wider click area
-- [ ] Menu buttons need more emphasis
+- [x] Menu buttons need more emphasis
 
 #### Refactoring
 
