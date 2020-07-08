@@ -18,9 +18,9 @@ Backlog
 ### Features
 
 - [ ] Add more support for social media links
-- [ ] Liquid chunk filter plugin
 - [ ] Touch response on mobile
 - [ ] Support for categories
+- [ ] Liquid chunk filter plugin
 
 ### Tweaks
 
@@ -30,49 +30,58 @@ front and back panels)
 
 ### Bug Fixes
 
-- [ ] Front page does not show up when switching back to 
-desktop after opening back on mobile
-
 ### Refactoring
 
 Upcoming
 -------------------------------------------------------------
 
-### More Style Elements!
-
-#### Features
-
-- [x] `.bw-emph-button` which automatically switches between 
-        raised and cutout depending on context
-- [x] `.bw-border-button` with border around button
+### The better sliding thing
 
 #### Tweaks
 
-- [x] Menu buttons need wider click area
-- [x] Menu buttons need more emphasis
+- [ ] Create .bw-app div which should encapsulate all 
+backwhite content!
+- [ ] Fix sliding animation so that it actually slides 
+off instead of compressing
 
-### New Pages and Tweaks
+#### Bug Fixes
+
+- [ ] Front page does not show up when switching back to 
+desktop after opening back on mobile
+
+### New Back Colored Page
 
 #### Features
 
 - [ ] Back-colored centered full-page support
 - [ ] Custom 404 page
 
+### Better Post Snippets
+
 #### Tweaks
 
-- [ ] Create .bw-app div which should encapsulate 
-all backwhite content!
-- [ ] Fix sliding animation so that it actually slides off
-- [ ] Intermediate grid row in tablet width which
-keeps some grid stuff
-
-#### Bug Fixes
-
-- [ ] Front page does not show up when switching back to 
-        desktop after opening back on mobile
+- [ ] Post snippet read more buttons are pushed to the 
+bottom of the row (and to the right)
+- [ ] Space out post snippets more on mobile
+- [ ] Read more button on post snippets is full width on mobile
+- [ ] Intermediate grid row in tablet width which keeps 
+some grid stuff
 
 Changelog
 -------------------------------------------------------------
+
+### v1.2.0: More Style Elements!
+
+#### Features
+
+- [x] `.bw-emph-button` which automatically switches between 
+raised and cutout depending on context
+- [x] `.bw-border-button` with border around button
+
+#### Tweaks
+
+- [x] Menu buttons need wider click area
+- [x] Menu buttons need more emphasis
 
 ### v1.1.2
 
