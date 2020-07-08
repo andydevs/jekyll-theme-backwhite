@@ -18,17 +18,21 @@ Backlog
 ### Features
 
 - [ ] Touch response on mobile
+- [ ] Liquid chunk filter plugin
 - [ ] Support for categories
-- [ ] Liquid chunk tag plugin
+
+### Tweaks
+
+- [ ] Create single bw-container which replaces 
+front and back containers (the spacing is handled by 
+front and back panels)
 
 ### Bug Fixes
 
 - [ ] Front page does not show up when switching back to 
-        desktop after opening back on mobile
+desktop after opening back on mobile
 
 ### Refactoring
-
-- [ ] Move doc-images to assets/images/doc folder
 
 Upcoming
 -------------------------------------------------------------
@@ -46,30 +50,25 @@ Upcoming
 - [x] Menu buttons need wider click area
 - [x] Menu buttons need more emphasis
 
-### New Pages
+### New Pages and Tweaks
 
 #### Features
 
-- [ ] Centered full-page thing (for logins n such)
-- [ ] Also a back-colored centered full-page
+- [ ] Back-colored centered full-page support
 - [ ] Custom 404 page
-- [ ] `.bw-raised` block (for a full back)
 
 #### Tweaks
 
 - [ ] Create .bw-app div which should encapsulate 
 all backwhite content!
-- [ ] Create single bw-container which replaces 
-front and back containers (the spacing is handled by 
-front and back panels)
-- [ ] Intermediate grid row in tablet width which 
+- [ ] Fix sliding animation so that it actually slides off
+- [ ] Intermediate grid row in tablet width which
 keeps some grid stuff
 
-#### Refactoring
+#### Bug Fixes
 
-- [ ] Move position attributes in .bw-back to right 
-under position attribute
-
+- [ ] Front page does not show up when switching back to 
+        desktop after opening back on mobile
 
 Changelog
 -------------------------------------------------------------
