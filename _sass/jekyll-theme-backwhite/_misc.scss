@@ -1,3 +1,17 @@
+// Root app component
+.bw-app {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    &.scroll-lock {
+        overflow-y: hidden;
+    }
+}
+
 // Hide on desktop, show on mobile
 .bw-show-on-mobile {
     display: none;

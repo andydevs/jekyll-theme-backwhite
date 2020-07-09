@@ -39,9 +39,9 @@ Upcoming
 
 #### Tweaks
 
-- [ ] Create .bw-app div which should encapsulate all 
+- [x] Create .bw-app div which should encapsulate all 
 backwhite content!
-- [ ] Fix sliding animation so that it actually slides 
+- [x] Fix sliding animation so that it actually slides 
 off instead of compressing
 
 #### Bug Fixes

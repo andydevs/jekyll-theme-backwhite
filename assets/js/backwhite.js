@@ -1,14 +1,17 @@
 $(() => {
     // Menu button handling
     $('.bw-open').click(() => {
+        $('.bw-app').addClass('scroll-lock')
         $('.bw-back-container').addClass('visible')
         $('.bw-front').addClass('slided')
     })
     $('.bw-close').click(() => {
-        $('.bw-front').removeClass('slided')
-        $('.bw-front').one('transitionend', () => {
-            $('.bw-back-container').removeClass('visible')
-        })
+        $('.bw-front')
+            .removeClass('slided')
+            .one('transitionend', () => {
+                $('.bw-app').removeClass('scroll-lock')
+                $('.bw-back-container').removeClass('visible')
+            })
     })
 
     // Dynamic Tables

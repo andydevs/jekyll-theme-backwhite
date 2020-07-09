@@ -8,9 +8,8 @@
     left: $desktop-menu-size;
     right: 0%;
     min-height: 100%;
-    margin-left: 0%;
     &.slided {
-        margin-left: 0%;
+        left: $desktop-menu-size;
     }
 
     /* Setting a z-index of 0 to so that
@@ -32,15 +31,16 @@
     // Mobile
     @include on-mobile {
         // Animated transition
-        transition: margin-left 0.5s ease-in-out;
+        transition: left 0.5s ease-in-out;
 
-        // Positioning
+        // Positioning and slide handling
         top: 0%;
         left: 0%;
         right: 0%;
-        margin-left: 0%;
+        left: 0%;
+        min-width: 100%;
         &.slided {
-            margin-left: 100%;
+            left: 100%;
         }
     };
 
