@@ -35,20 +35,6 @@ front and back panels)
 Upcoming
 -------------------------------------------------------------
 
-### The better sliding thing
-
-#### Tweaks
-
-- [x] Create .bw-app div which should encapsulate all 
-backwhite content!
-- [x] Fix sliding animation so that it actually slides 
-off instead of compressing
-
-#### Bug Fixes
-
-- [x] Front page does not show up when switching back to 
-desktop after opening back on mobile
-
 ### New Back Colored Page
 
 #### Features
@@ -69,6 +55,22 @@ some grid stuff
 
 Changelog
 -------------------------------------------------------------
+
+### v2.0.0: The better sliding thing
+
+It's a new release because it's different n' stuff
+
+#### Tweaks
+
+- [x] Create .bw-app div which should encapsulate all 
+backwhite content!
+- [x] Fix sliding animation so that it actually slides 
+off instead of compressing
+
+#### Bug Fixes
+
+- [x] Front page does not show up when switching back to 
+desktop after opening back on mobile
 
 ### v1.2.0: More Style Elements!
 
