@@ -52,6 +52,8 @@ bottom of the row (and to the right)
 - [ ] Read more button on post snippets is full width on mobile
 - [ ] Intermediate grid row in tablet width which keeps 
 some grid stuff
+- [ ] Liquid chunk filter plugin
+- [ ] Add more support for social media links
 
 Changelog
 -------------------------------------------------------------
