@@ -3,7 +3,17 @@ layout: post
 title: Usage
 ---
 
-## Back and Front Panels
+## Setting up the Webpage
+
+The entire webpage is contained in a `.bw-app` div. This mainly handles hiding and showing the two panels during the sliding animation
+
+```html
+<body>
+    <div class='bw-app'>
+        <!-- Content -->
+    </div>
+</body>
+```
 
 The core of this design is the back panel (appearing on the right on desktop, and appearing behind on mobile), and the front panel.
 
@@ -11,11 +21,13 @@ These panels are created with `<div class='bw-back'>` and `<div class='bw-front'
 
 ```html
 <body>
-    <div class='bw-back'>
-        <p>Back (menu)</p>
-    </div>
-    <div class='bw-front'>
-        <p>Front (content)</p>
+    <div class='bw-app'>
+        <div class='bw-back'>
+            <p>Back (menu)</p>
+        </div>
+        <div class='bw-front'>
+            <p>Front (content)</p>
+        </div>
     </div>
 </body>
 ```
@@ -26,14 +38,16 @@ Wrap all the content in these panels with their appropriate containers to provid
 
 ```html
 <body>
-    <div class='bw-back'>
-        <div class='bw-back-container'>
-            <p>Back (menu)</p>
+    <div class='bw-app'>
+        <div class='bw-back'>
+            <div class='bw-back-container'>
+                <p>Back (menu)</p>
+            </div>
         </div>
-    </div>
-    <div class='bw-front'>
-        <div class='bw-front-container'>
-            <p>Front (content)</p>
+        <div class='bw-front'>
+            <div class='bw-front-container'>
+                <p>Front (content)</p>
+            </div>
         </div>
     </div>
 </body>
