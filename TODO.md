@@ -46,7 +46,7 @@ off instead of compressing
 
 #### Bug Fixes
 
-- [ ] Front page does not show up when switching back to 
+- [x] Front page does not show up when switching back to 
 desktop after opening back on mobile
 
 ### New Back Colored Page

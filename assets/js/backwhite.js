@@ -2,15 +2,13 @@ $(() => {
     // Menu button handling
     $('.bw-open').click(() => {
         $('.bw-back-container').addClass('visible')
-        $('.bw-front').animate(
-            {'margin-left': '100%'},
-            400, 'swing')
+        $('.bw-front').addClass('slided')
     })
     $('.bw-close').click(() => {
-        $('.bw-front').animate(
-            {'margin-left': '0%'},
-            400, 'swing',
-            () => $('.bw-back-container').removeClass('visible'))
+        $('.bw-front').removeClass('slided')
+        $('.bw-front').one('transitionend', () => {
+            $('.bw-back-container').removeClass('visible')
+        })
     })
 
     // Dynamic Tables

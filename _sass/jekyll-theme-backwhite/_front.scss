@@ -1,10 +1,17 @@
 .bw-front {
+    // No transition
+    transition: none;
+
     // Positioning and sizing
     position: absolute;
     top: 0%;
     left: $desktop-menu-size;
     right: 0%;
     min-height: 100%;
+    margin-left: 0%;
+    &.slided {
+        margin-left: 0%;
+    }
 
     /* Setting a z-index of 0 to so that
      * this is in front of the back layer
@@ -24,11 +31,17 @@
 
     // Mobile
     @include on-mobile {
+        // Animated transition
+        transition: margin-left 0.5s ease-in-out;
+
         // Positioning
         top: 0%;
         left: 0%;
         right: 0%;
         margin-left: 0%;
+        &.slided {
+            margin-left: 100%;
+        }
     };
 
     // Container
