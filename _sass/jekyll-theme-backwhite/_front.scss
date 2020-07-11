@@ -15,7 +15,7 @@
     /* Setting a z-index of 0 to so that
      * this is in front of the back layer
      * with a z-index of -1 (see _back.scss) */
-    z-index: 0;
+    z-index: 2;
 
     // Only vertical scrolling
     overflow-x: hidden;
