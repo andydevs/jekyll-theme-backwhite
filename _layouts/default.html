@@ -2,13 +2,10 @@
 <html>
     {% include head.html %}
     <body>
-        <div class="bw-app">
-            {% include back.html %}
-
-            <div class="bw-front">
-                <div class="bw-front-container">
-                    {{ content }}
-                </div>
+        {% include back.html %}
+        <div class="bw-front">
+            <div class="bw-front-container">
+                {{ content }}
             </div>
         </div>
     </body>
