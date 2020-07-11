@@ -35,9 +35,10 @@ front and back panels)
 Upcoming
 -------------------------------------------------------------
 
-### Buf Fixes
+### Okay, we're gonna revamp this entire thing
 
-- [ ] Menu on Mobile Doesn't Slide
+- [ ] Fix the mobile UI sliding thing
+- [ ] Rewrite documentation
 
 ### New Back Colored Page
 
