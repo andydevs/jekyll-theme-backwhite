@@ -30,15 +30,12 @@ front and back panels)
 
 ### Bug Fixes
 
+- [ ] Address bar does not move out of the way when scrolling
+
 ### Refactoring
 
 Upcoming
 -------------------------------------------------------------
-
-### Okay, we're gonna revamp this entire thing
-
-- [ ] Fix the mobile UI sliding thing
-- [ ] Rewrite documentation
 
 ### New Back Colored Page
 
