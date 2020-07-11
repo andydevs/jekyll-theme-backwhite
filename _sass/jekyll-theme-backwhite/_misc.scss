@@ -1,3 +1,13 @@
+.bw-app {
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    width: 100%;
+    height: max-content;
+}
+
 // Hide on desktop, show on mobile
 .bw-show-on-mobile {
     display: none;
