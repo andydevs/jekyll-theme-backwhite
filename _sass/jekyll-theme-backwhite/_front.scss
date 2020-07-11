@@ -19,6 +19,7 @@
 
     // Only vertical scrolling
     overflow-x: hidden;
+    overflow-y: visible;
 
     // Coloring
     color: black;
@@ -37,7 +38,6 @@
         top: 0%;
         left: 0%;
         right: 0%;
-        left: 0%;
         min-width: 100%;
         &.slided {
             left: 100%;
