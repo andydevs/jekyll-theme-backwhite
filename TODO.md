@@ -37,7 +37,7 @@ Upcoming
 
 ### Buf Fixes
 
-- [x] Menu on Mobile Doesn't Slide
+- [ ] Menu on Mobile Doesn't Slide
 
 ### New Back Colored Page
 
