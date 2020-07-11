@@ -6,6 +6,8 @@
     max-width: 100%;
     width: 100%;
     height: max-content;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 // Hide on desktop, show on mobile
