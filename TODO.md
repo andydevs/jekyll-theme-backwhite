@@ -34,23 +34,19 @@ front and back panels)
 Upcoming
 -------------------------------------------------------------
 
-### New Back Colored Page
+### Better Pages and Links
 
 #### Features
 
 - [ ] Back-colored centered full-page support
 - [ ] Custom 404 page
 
-### Better Post Snippets
-
 #### Tweaks
 
-- [ ] Post snippet read more buttons are pushed to the 
-bottom of the row (and to the right)
+- [ ] Post snippet read more buttons are pushed to the bottom of the row (and to the right)
 - [ ] Space out post snippets more on mobile
 - [ ] Read more button on post snippets is full width on mobile
-- [ ] Intermediate grid row in tablet width which keeps 
-some grid stuff
+- [ ] Intermediate grid row in tablet width which keeps some grid stuff
 - [ ] Add more support for social media links
 
 Changelog
