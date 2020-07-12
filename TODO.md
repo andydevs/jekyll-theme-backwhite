@@ -38,11 +38,12 @@ Upcoming
 
 #### Features
 
-- [ ] Back-colored centered full-page support
+- [ ] Back-colored centered full-page layout
 - [ ] Custom 404 page
 
 #### Tweaks
 
+- [ ] Redesign post snippet grid
 - [ ] Post snippet read more buttons are pushed to the bottom of the row (and to the right)
 - [ ] Space out post snippets more on mobile
 - [ ] Read more button on post snippets is full width on mobile
