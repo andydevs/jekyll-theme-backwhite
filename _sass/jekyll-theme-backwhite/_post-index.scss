@@ -1,5 +1,16 @@
 .bw-post-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: $spacing-unit;
     column-gap: $spacing-unit;
+
+    .bw-post {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+
+        .bw-post-links {
+            display: inline-block;
+            text-align: right;
+        }
+    }
 }

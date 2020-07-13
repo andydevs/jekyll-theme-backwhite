@@ -10,11 +10,15 @@ layout: default
 <div class="bw-post-grid">
     {% for post in site.posts %}
         <div class="bw-post">
-            <h3 class="bw-post-title">{{ post.title }}</h3>
-            {% if post.date %}
-                <h4 class="bw-post-date">{{ post.date | date: "%b %-d, %Y" }}</h4>
-            {% endif %}
-            <p class="bw-post-excerpt">{{ post.excerpt }}</p>
+            <div class="bw-post-header">
+                <h3 class="bw-post-title">{{ post.title }}</h3>
+                {% if post.date %}
+                    <h4 class="bw-post-date">{{ post.date | date: "%b %-d, %Y" }}</h4>
+                {% endif %}
+            </div>
+            <div class="bw-post-excerpt">
+                {{ post.excerpt }}
+            </div>
             <p class="bw-post-links">
                 <a class="bw-cutout-button" 
                     href="{{ post.url | prepend: site.baseurl }}">

@@ -15,10 +15,6 @@ Backlog
 - [ ] Travis n stuff
 - [ ] Automate version update
 
-### Features
-
-- [ ] Liquid chunk filter plugin
-
 ### Tweaks
 
 - [ ] Create single bw-container which replaces 
