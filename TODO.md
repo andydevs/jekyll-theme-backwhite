@@ -16,6 +16,10 @@ Upcoming
 Changelog
 -------------------------------------------------------------
 
+### v2.1.1
+
+- [x] Changed default mobile width to better accomodate for the smallest desktop windows
+
 ### v2.1.0: Better Pages and Links
 
 #### Features
