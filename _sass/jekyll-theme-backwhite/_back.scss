@@ -56,16 +56,6 @@
         }
     }
 
-    // Links
-    .bw-links {
-        a {
-            text-decoration: none;
-            &:hover {
-                border-bottom: 1px solid;
-            }
-        }
-    }
-
     // Backwhite footer
     .bw-footer {
         color: darken($white-color, 25%);

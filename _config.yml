@@ -9,6 +9,7 @@ description: >
   occaecat cupidatat non proident, sunt in culpa qui officia 
   deserunt mollit anim id est laborum.
 
+# Page links
 links:
   - url: '/showcase'
     text: Showcase
@@ -24,8 +25,10 @@ links:
     text: Post Index Example
 
 # Example social media
-github_username: example
-email_address: example@mail.com
+social:
+  twitter: "@example"
+  github: example
+  email: example@mail.com
 
 # Build details
 exclude:

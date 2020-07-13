@@ -1,0 +1,24 @@
+// Links
+.bw-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    a {
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        padding: $spacing-unit;
+    }
+}
+
+// Social
+.bw-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    a {
+        flex: 1;
+        text-align: center;
+        font-size: $back-icon-size;
+    }
+}

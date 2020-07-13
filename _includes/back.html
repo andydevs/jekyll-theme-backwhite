@@ -10,51 +10,33 @@
             </a>
         </div>
 
-        <!-- Links Table -->
-        <table class="bw-links">
-            <!-- Link Rows -->
-            {% assign rowsize = 3 %}
-            {% assign rows = site.links.size | times: 1.0 | divided_by: rowsize | ceil %}
-            {% for i in (1..rows) %}
-                {% assign offset = forloop.index0 | times: rowsize %}
-                <tr>
-                {% for link in site.links limit:rowsize offset:offset %}
-                    <td>
-                        <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
-                            {{ link.text }}
-                        </a>
-                    </td>
-                {% endfor %}
-                </tr>
+        <!-- Page links grid -->
+        <div class="bw-links">
+            {% for link in site.links %}
+                <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
+                    {{ link.text }}
+                </a>
             {% endfor %}
-            
-            <!-- User's Social Media -->
-            <tr>
-                {% if site.github_username %}
-                    <td>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class='fab fa-github'></span>
-                            {{ site.github_username }}
-                        </a>
-                    </td>
-                {% endif %}
-                {% if site.twitter_username %}
-                    <td>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
+        </div>
 
-                        </a>
-                    </td>
-                {% endif %}
-                {% if site.email_address %}
-                    <td>
-                        <a href="mailto://{{ site.email_address }}">
-                            <span class="fas fa-envelope"></span>
-                            Email
-                        </a>
-                    </td>
-                {% endif %}
-            </tr>
-        </table>
+        <!-- Social links grid -->
+        <div class="bw-social">
+            {% if site.social.github %}
+                <a href="https://github.com/{{ site.social.github }}">
+                    <span class='fab fa-github'></span>
+                </a>
+            {% endif %}
+            {% if site.social.twitter %}
+                <a href="https://twitter.com/{{ site.social.twitter }}">
+                    <span class='fab fa-twitter'></span>
+                </a>
+            {% endif %}
+            {% if site.social.email %}
+                <a href="mailto://{{ site.social.email }}">
+                    <span class="fas fa-envelope"></span>
+                </a>
+            {% endif %}
+        </div>
 
         <!-- Footer -->
         <footer class="bw-footer">
