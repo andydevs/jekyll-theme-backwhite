@@ -13,8 +13,21 @@
         grid-template-rows: auto 1fr auto;
 
         .bw-post-links {
-            display: inline-block;
+            display: block;
             text-align: right;
+
+            @include on-mobile {
+                display: flex;
+                flex-direction: row-reverse;
+            }
+
+            a {
+                flex: 0;
+                text-align: center;
+                @include on-mobile {
+                    flex: 1;
+                }
+            }
         }
     }
 }
