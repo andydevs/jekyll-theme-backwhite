@@ -20,6 +20,8 @@ links:
     text: Center Page
   - url: '/bogus'
     text: Bogus Page
+  - url: '/post-index-example'
+    text: Post Index Example
 
 # Example social media
 github_username: example

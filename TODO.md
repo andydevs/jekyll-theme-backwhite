@@ -43,12 +43,12 @@ Upcoming
 
 #### Tweaks
 
+- [ ] Add more support for social media links
 - [ ] Redesign post snippet grid
 - [ ] Post snippet read more buttons are pushed to the bottom of the row (and to the right)
 - [ ] Space out post snippets more on mobile
 - [ ] Read more button on post snippets is full width on mobile
 - [ ] Intermediate grid row in tablet width which keeps some grid stuff
-- [ ] Add more support for social media links
 
 Changelog
 -------------------------------------------------------------
