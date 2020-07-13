@@ -18,6 +18,8 @@ links:
     text: Post Example
   - url: '/center-page'
     text: Center Page
+  - url: '/bogus'
+    text: Bogus Page
 
 # Example social media
 github_username: example
