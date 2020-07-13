@@ -10,27 +10,13 @@ theme was meant to be used for my jekyll site
 Backlog
 -------------------------------------------------------------
 
-### Build Tooling
-
-- [ ] Travis n stuff
-- [ ] Automate version update
-
-### Tweaks
-
-- [ ] Create single bw-container which replaces 
-front and back containers (the spacing is handled by 
-front and back panels)
-
-### Bug Fixes
-
-- [ ] Address bar does not move out of the way when scrolling
-
-### Refactoring
-
 Upcoming
 -------------------------------------------------------------
 
-### Better Pages and Links
+Changelog
+-------------------------------------------------------------
+
+### v2.1.0: Better Pages and Links
 
 #### Features
 
@@ -45,9 +31,6 @@ Upcoming
 - [x] Read more button on post snippets is full width on mobile
 - [x] Intermediate grid row in tablet width which keeps some grid stuff
 - [x] Add more support for social media links
-
-Changelog
--------------------------------------------------------------
 
 ### v2.0.0: The better sliding thing
 
