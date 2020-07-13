@@ -10,6 +10,64 @@
     overflow-y: visible;
 }
 
+.bw-full-back {
+    // Position
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+
+    // Grid Layout
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    // Coloring
+    background-color: $back-color;
+    color: $white-color;
+
+    // Container
+    .bw-full-back-container {
+        // Transform and sizing
+        transform: translateY(-25%);
+        max-width: 25%;
+        margin: 0pt $spacing-unit;
+
+        @include on-mobile {
+            max-width: 75%;
+        }
+
+        // Title
+        .bw-full-back-page-title {
+            padding: $spacing-unit 0pt;
+            color: $white-color;
+            border-bottom: 1px solid $white-color;
+        }
+
+        // Content
+        .bw-full-back-page-content {
+            margin: 2*$spacing-unit 0pt;
+        }
+
+        // Link
+        .bw-full-back-page-links {
+            display: flex;
+            flex-direction: row-reverse;
+            .bw-full-back-page-link {
+                @extend .bw-border-button;
+                border-color: $white-color !important;
+                padding: $spacing-unit/2 $spacing-unit !important;
+                &:hover {
+                    background-color: $white-color;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
 // Hide on desktop, show on mobile
 .bw-show-on-mobile {
     display: none;
@@ -109,7 +167,7 @@
 }
 .bw-border-button {
     @extend .bw-text-button;
-    border: 2px solid;
+    border: 1px solid;
     border-color: $back-color;
 }
 .bw-cutout-button {

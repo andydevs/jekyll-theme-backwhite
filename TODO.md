@@ -38,7 +38,7 @@ Upcoming
 
 #### Features
 
-- [ ] Back-colored centered full-page layout
+- [x] Back-colored centered full-page layout
 - [ ] Custom 404 page
 
 #### Tweaks

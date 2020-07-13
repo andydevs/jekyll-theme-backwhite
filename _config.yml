@@ -16,6 +16,8 @@ links:
     text: Usage
   - url: '/post-example'
     text: Post Example
+  - url: '/center-page'
+    text: Center Page
 
 # Example social media
 github_username: example
