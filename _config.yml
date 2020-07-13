@@ -16,17 +16,21 @@ links:
   - url: '/usage-bruh'
     text: Usage
   - url: '/post-example'
-    text: Post Example
+    text: Post
   - url: '/center-page'
     text: Center Page
   - url: '/bogus'
     text: Bogus Page
   - url: '/post-index-example'
-    text: Post Index Example
+    text: Post Index
 
 # Example social media
 social:
+  youtube: PewDiePie
+  linkedin: anshul-kharbanda-03433712b
   twitter: "@example"
+  instagram: khartesian_coordinate_system
+  facebook: Anshul.Kharbanda.1997
   github: example
   email: example@mail.com
 

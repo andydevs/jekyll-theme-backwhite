@@ -5,30 +5,46 @@
             <button class="bw-action bw-show-on-mobile bw-close">
                 <span class="fas fa-chevron-left"></span>
             </button>
-            <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" class="bw-title bw-mega">
-                {{ site.title }}
-            </a>
+            <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" class="bw-title bw-mega">{{ site.title }}</a>
         </div>
 
         <!-- Page links grid -->
         <div class="bw-links">
             {% for link in site.links %}
-                <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
-                    {{ link.text }}
-                </a>
+                <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">{{ link.text }}</a>
             {% endfor %}
         </div>
 
         <!-- Social links grid -->
         <div class="bw-social">
-            {% if site.social.github %}
-                <a href="https://github.com/{{ site.social.github }}">
-                    <span class='fab fa-github'></span>
+            {% if site.social.youtube %}
+                <a href="https://youtube.com/user/{{ site.social.youtube }}">
+                    <span class='fab fa-youtube'></span>
                 </a>
             {% endif %}
             {% if site.social.twitter %}
                 <a href="https://twitter.com/{{ site.social.twitter }}">
                     <span class='fab fa-twitter'></span>
+                </a>
+            {% endif %}
+            {% if site.social.instagram %}
+                <a href="https://instagram.com/{{ site.social.instagram }}">
+                    <span class='fab fa-instagram'></span>
+                </a>
+            {% endif %}
+            {% if site.social.github %}
+                <a href="https://github.com/{{ site.social.github }}">
+                    <span class='fab fa-github'></span>
+                </a>
+            {% endif %}
+            {% if site.social.facebook %}
+                <a href="https://facebook.com/{{ site.social.facebook }}">
+                    <span class='fab fa-facebook'></span>
+                </a>
+            {% endif %}
+            {% if site.social.linkedin %}
+                <a href="https://linkedin.com/in/{{ site.social.linkedin }}">
+                    <span class='fab fa-linkedin'></span>
                 </a>
             {% endif %}
             {% if site.social.email %}

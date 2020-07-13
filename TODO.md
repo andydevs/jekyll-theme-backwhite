@@ -44,7 +44,7 @@ Upcoming
 - [x] Space out post snippets more on mobile
 - [x] Read more button on post snippets is full width on mobile
 - [x] Intermediate grid row in tablet width which keeps some grid stuff
-- [ ] Add more support for social media links
+- [x] Add more support for social media links
 
 Changelog
 -------------------------------------------------------------
