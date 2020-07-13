@@ -134,9 +134,6 @@
     @include on-tablet {
         max-width: 100%;
     }
-    @include on-mobile {
-        max-width: 100%;
-    }
 }
 
 // Grid rows
