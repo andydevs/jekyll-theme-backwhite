@@ -4,6 +4,10 @@
     row-gap: $spacing-unit;
     column-gap: $spacing-unit;
 
+    @include on-tablet {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .bw-post {
         display: grid;
         grid-template-rows: auto 1fr auto;
